@@ -1,0 +1,243 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* NAVIGATION MENU */
+#navbar{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+#navbar ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin: 8px;
+    padding: 5px;
+}
+#logo img{
+    margin: 12px;
+    padding: 7px;
+    width: 58px;
+    height: 58px;
+}
+.nav a{
+    display: flex;
+    text-decoration: none;
+    margin: 12px 13px;
+    padding: 7px 5px;
+    color: white;
+    font-size: 23px;
+}
+.nav a:hover{
+    color: rgb(127, 119, 119);
+    border-radius: 30px;
+    text-decoration: underline rgb(127, 119, 119);
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 90%;
+    width: 100%;
+    z-index: -1;
+    opacity: 27%;
+}
+/* SECTION FIRST */
+#top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 103px;
+    padding: 68px 3px;
+    font-size: 30px;
+}
+#top h2{
+    margin: 1px 5px;
+    padding: 3px 4px;
+}
+#top p{
+    font-size: 25px;
+    margin: 1px 7px;
+    padding: 5px 6px;
+}
+#top button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a49583;
+    width: 122px;
+    height: 34px;
+    margin: 11px auto;
+    padding: 14px 12px;
+}
+#top::before{
+    content: "";
+    background: url('https://cdn.pixabay.com/photo/2015/12/09/17/11/vegetables-1085063_1280.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 437px;
+    width: 100%;
+    z-index: -2;
+    opacity: 85%;
+}
+#top-second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#top-second h1{
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    margin: 2px 34px;
+    padding: 27px 7px;
+}
+#Services{
+    display: flex;
+}
+#details{
+    margin: 9px 5px;
+    padding: 8px 5px;
+}
+.food1{
+    border: 2px solid black;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 383px;
+    width: 316px;
+    padding: 20px 36px;
+    margin: 0px 28px;
+    margin-top: 0px;
+    border-radius: 23px;
+}
+.food1 img{
+    margin-top: 33px;
+    padding: 4px 5px;
+    width: 107px;
+    height: 96px;
+}
+.food2{
+    border: 2px solid black;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 383px;
+    width: 316px;
+    padding: 20px 36px;
+    margin: 0px 28px;
+    margin-top: 0px;
+    border-radius: 23px;
+}
+.food2 img{
+    margin-top: 33px;
+    padding: 4px 5px;
+    width: 125px;
+    height: 98px;
+}
+.food3{
+    border: 2px solid black;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 383px;
+    width: 316px;
+    padding: 20px 36px;
+    margin: 0px 28px;
+    margin-top: 0px;
+    border-radius: 23px;
+}
+.food3 img{
+    margin-top: 33px;
+    padding: 4px 5px;
+    width: 143px;
+    height: 101px;
+}
+#spnsrhead{
+    text-align: center;
+    font-size: 3rem;
+    padding: 13px 4px;
+    margin: 10px 4px;
+}
+#sponsors{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px;
+    padding: 4px;
+}
+#spnsr1{
+    height: 15%;
+    width: 15%;
+}
+#spnsr2{
+    height: 15%;
+    width: 15%;
+}
+#spnsr3{
+    height:15%;
+    width: 15%;
+}
+#Contactus h2{
+    font-size: 3rem;
+    margin: 10px auto;
+    padding: 3px auto;
+}
+#Contactus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    height: 279px;
+    width: 100%;
+    margin-top:41px;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+}
+.values input{
+    height: 31px;
+    width: 222px;
+    border-radius: 4px;
+    margin: 4px auto;
+    padding-left: 10px;
+}
+.values button{
+    align-items: center;
+    justify-content: center;
+    margin-left: 121px;
+    margin-top: 8px;
+    width: 114px;
+    height: 29px;
+    border-radius: 13px;
+    background-color: antiquewhite;
+}
+#Contactus::before{
+    content: "";
+    background: url("https://c1.wallpaperflare.com/preview/893/1020/960/contact-us-contact-email-phone.jpg") no-repeat center center/cover;
+    position: absolute;
+    opacity: 60%;
+    padding: 27px 9px;
+    height: 283px;
+    width: 100%;
+    z-index: -1;
+}
+#copyright{
+    background-color: black;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,53 @@
+#navbar{
+    flex-direction: column;
+    align-items: center;
+}
+#logo img{
+    padding: 0px;
+    margin-bottom: 0px;
+}
+.nav a{
+    font-size: 17px;
+    padding: 0px 7px;
+    margin: 0px;
+}
+#navbar ul{
+    margin: 0px;
+    margin-bottom: 4px;
+    padding: 0px;
+}
+#navbar::before{
+    height: 100%;
+}
+#top{
+    font-size: 20px;
+    padding: 68px 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#top button{
+    width: 100px;
+    height: 25px;
+}
+#top-second h1{
+    font-size: 2.5rem;
+}
+#Services{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.food1{
+    margin: 6px 2px;
+    width: 250px;
+}
+.food2{
+    margin: 6px 2px;
+    width: 250px;
+}
+.food3{
+    margin: 6px 2px;
+    width: 250px;
+}
+#spnsrhead{
+    font-size: 2.5rem;
+}
